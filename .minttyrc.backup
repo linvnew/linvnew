@@ -1,0 +1,42 @@
+# Breeze colorscheme for MinTTY
+# Author: Wiseluster <chinaware@foxmail.com>
+# Acknowledgement: the KDE Team
+
+Locale=zh_CN
+Charset=UTF-8
+
+Font=DejaVu Sans Mono for Powerline
+FontHeight=10
+FontSmoothing=default
+BoldAsFont=yes
+CursorType=block
+Scrollbar=none
+Term=xterm-256color
+Columns=110
+Rows=32
+
+CursorBlinks=yes
+CursorColour=239,240,241
+
+ForegroundColour=239,240,241
+BackgroundColour=49,54,59
+
+Black=7,54,66
+BoldBlack=0,43,54
+Red=237,21,21
+BoldRed=192,57,43
+Green=17,209,22
+BoldGreen=28,220,154
+Yellow=246,116,0
+BoldYellow=253,188,75
+Blue=29,153,243
+BoldBlue=61,174,233
+Magenta=155,89,182
+BoldMagenta=142,68,173
+Cyan=26,188,156
+BoldCyan=22,160,133
+White=239,240,241
+BoldWhite=252,252,252
+Transparency=medium
+OpaqueWhenFocused=yes
+FontWeight=400
