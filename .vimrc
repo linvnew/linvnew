@@ -25,7 +25,7 @@ call plug#begin()
     Plug 'vim-airline/vim-airline-themes'
     	let g:airline_theme='cool'
 
-"   Plug 'altercation/vim-colors-solarized'
+   Plug 'altercation/vim-colors-solarized'
 	syntax enable
  	set background=light
 "	colorscheme solarized
