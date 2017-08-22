@@ -85,6 +85,19 @@ call plug#begin()   " Make sure you use single quotes
     Plug 'mattn/calendar-vim'
         map <F8> :Calendar<cr>
 
+" Markdown
+    Plug 'godlygeek/tabular'
+    Plug 'plasticboy/vim-markdown'
+    Plug 'iamcco/mathjax-support-for-mkdp'
+    Plug 'iamcco/markdown-preview.vim'
+        let g:mkdp_path_to_chrome = "w3m"
+        let g:mkdp_auto_start = 0
+        let g:mkdp_auto_open = 1
+        let g:mkdp_auto_close = 1
+        let g:mkdp_refresh_slow = 0
+        let g:mkdp_command_for_global = 0
+
+
 call plug#end() " Initialize plugin system
 
 """""""""""""""""""""""""""""""""""""

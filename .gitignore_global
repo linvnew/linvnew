@@ -1,0 +1,50 @@
+git config --global push.default simple
+git config --global credential.helper store
+git config --global core.excludesfile ~/.gitignore_global
+cat > ~/.gitignore_global <<EOF
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+ 
+# Packages
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+ 
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+ 
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+ 
+# VIM tmp files #
+.*~             # vim临时文件
+.*.swp
+.*un~
+zsh.exe.stackdump
+ 
+tmp.txt         # 忽略tmp.txt
+*.log           # 忽略所有log文件
+tmp/*           # 忽略tmp文件夹所有文件
+log/**/*.log    # 忽略log目录下的包括子目录下的所有log文件
+EOF
