@@ -8,17 +8,17 @@
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
   ZSH_THEME="linvnew"
-  #POWERLINE_HIDE_USER_NAME="true"
-  #POWERLINE_HIDE_HOST_NAME="true"
-  #POWERLINE_DETECT_SSH="true"
-  #POWERLINE_GIT_CLEAN="✔"
-  #POWERLINE_GIT_DIRTY="✘"
-  #POWERLINE_GIT_ADDED="%F{green}✚%F{black}"
-  #POWERLINE_GIT_MODIFIED="%F{blue}✹%F{black}"
-  #POWERLINE_GIT_DELETED="%F{red}✖%F{black}"
-  #POWERLINE_GIT_UNTRACKED="%F{yellow}✭%F{black}"
-  #POWERLINE_GIT_RENAMED="➜"
-  #POWERLINE_GIT_UNMERGED="═"
+  POWERLINE_HIDE_USER_NAME="true"
+  POWERLINE_HIDE_HOST_NAME="true"
+  POWERLINE_DETECT_SSH="true"
+  POWERLINE_GIT_CLEAN="✔"
+  POWERLINE_GIT_DIRTY="✘"
+  POWERLINE_GIT_ADDED="%F{green}✚%F{black}"
+  POWERLINE_GIT_MODIFIED="%F{blue}✹%F{black}"
+  POWERLINE_GIT_DELETED="%F{red}✖%F{black}"
+  POWERLINE_GIT_UNTRACKED="%F{yellow}✭%F{black}"
+  POWERLINE_GIT_RENAMED="➜"
+  POWERLINE_GIT_UNMERGED="═"
   # 开启等待红点
   COMPLETION_WAITING_DOTS="true"
 
