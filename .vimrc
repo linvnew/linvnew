@@ -32,14 +32,15 @@ call plug#begin()   " Make sure you use single quotes
 
 " Airline Themes
     Plug 'vim-airline/vim-airline-themes'
-    	let g:airline_theme='cool'
+    	"let g:airline_theme='cool'
+    	let g:airline_theme='solarized'
 
 " Solarized
     Plug 'altercation/vim-colors-solarized'
 	    syntax enable
- 	    set background=light
-	    "colorscheme solarized
-	    let g:solarized_termcolors=256
+ 	    set background=dark
+	    colorscheme solarized
+	    "let g:solarized_termcolors=256
  	    call togglebg#map("<F5>")
 
 " Vimdoc-zh
