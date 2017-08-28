@@ -2,25 +2,28 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/Administrator/.oh-my-zsh
+  export ZSH=/data/data/io.neoterm/files/home/.oh-my-zsh
 
-# Set name of the theme to load. Optionally, if you set this to "random"
-# it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-  ZSH_THEME="linvnew"
-  POWERLINE_HIDE_USER_NAME="true"
-  POWERLINE_HIDE_HOST_NAME="true"
-  POWERLINE_DETECT_SSH="true"
-  POWERLINE_GIT_CLEAN="✔"
-  POWERLINE_GIT_DIRTY="✘"
-  POWERLINE_GIT_ADDED="%F{green}✚%F{black}"
-  POWERLINE_GIT_MODIFIED="%F{blue}✹%F{black}"
-  POWERLINE_GIT_DELETED="%F{red}✖%F{black}"
-  POWERLINE_GIT_UNTRACKED="%F{yellow}✭%F{black}"
-  POWERLINE_GIT_RENAMED="➜"
-  POWERLINE_GIT_UNMERGED="═"
-  # 开启等待红点
-  COMPLETION_WAITING_DOTS="true"
+# ZSH_THEME="agnoster"
+# ZSH_THEME="avit"
+# ZSH_THEME="robbyrussell"
+# ZSH_THEME="linvnew"
+  ZSH_THEME="Bureau"
+ POWERLINE_HIDE_USER_NAME="true"
+ POWERLINE_HIDE_HOST_NAME="true"
+ POWERLINE_DETECT_SSH="true"
+ POWERLINE_GIT_CLEAN="✔"
+ POWERLINE_GIT_DIRTY="✘"
+ POWERLINE_GIT_ADDED="%F{green}✚%F{black}"
+ POWERLINE_GIT_MODIFIED="%F{blue}✹%F{black}"
+ POWERLINE_GIT_DELETED="%F{red}✖%F{black}"
+ POWERLINE_GIT_UNTRACKED="%F{yellow}✭%F{black}"
+ POWERLINE_GIT_RENAMED="➜"
+#POWERLINE_GIT_UNMERGED="═"⎇ 
+#POWERLINE_GIT_UNMERGED="⎇"
+ POWERLINE_GIT_UNMERGED="✪"
+
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -46,6 +49,8 @@
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
+# 开启等待红点
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -64,7 +69,7 @@
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git autojump zsh-syntax-highlighting colored-man-pages)
+plugins=(git autojump zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -96,21 +101,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#
-# install autojump
-[[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
-
-# # install powerline-shell
-# function powerline_precmd() {
-#   export PS1="$(~/powerline-shell.py  --cwd-max-depth 1 --cwd-only $? --shell zsh 2> /dev/null )"
-# }
-# 
-# function install_powerline_precmd() {
-#   for s in "${precmd_functions[@]}"; do
-#     if [ "$s" = "powerline_precmd" ]; then
-#       return
-#     fi
-#   done
-#   precmd_functions+=(powerline_precmd)
-# }
-# install_powerline_precmd

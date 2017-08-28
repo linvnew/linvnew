@@ -26,6 +26,7 @@ airline-features	airline.txt	/*airline-features*
 airline-funcrefs	airline.txt	/*airline-funcrefs*
 airline-hunks	airline.txt	/*airline-hunks*
 airline-intro	airline.txt	/*airline-intro*
+airline-keymap	airline.txt	/*airline-keymap*
 airline-license	airline.txt	/*airline-license*
 airline-name	airline.txt	/*airline-name*
 airline-neomake	airline.txt	/*airline-neomake*

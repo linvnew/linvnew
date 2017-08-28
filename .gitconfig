@@ -1,0 +1,24 @@
+[push]
+	default = simple
+[color]
+  ui = auto
+[alias]
+[core]
+  excludesfile = ~/.gitignore
+  autocrlf = input
+	editor = vim
+[merge]
+  ff = only
+[include]
+  path = .gitconfig.local
+[commit]
+  template = ~/.gitmessage
+[fetch]
+  prune = true
+[user]
+  name = linvnew
+  email = linvnew@gmail.com
+[credential]
+  helper = osxkeychain
+[github]
+  user = linvnew
