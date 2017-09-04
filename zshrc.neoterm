@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/Administrator/.oh-my-zsh
+  export ZSH=/data/data/io.neoterm/files/home/.oh-my-zsh
 
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 # ZSH_THEME="agnoster"
@@ -20,7 +20,7 @@
  POWERLINE_GIT_DELETED="%F{red}✖%F{black}"
  POWERLINE_GIT_UNTRACKED="%F{yellow}✭%F{black}"
  POWERLINE_GIT_RENAMED="➜"
-#POWERLINE_GIT_UNMERGED="═"⎇
+#POWERLINE_GIT_UNMERGED="═"⎇ 
 #POWERLINE_GIT_UNMERGED="⎇"
  POWERLINE_GIT_UNMERGED="✪"
 
@@ -101,17 +101,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#
-# Set colors for man pages
-export PAGER="/usr/bin/most -s"
-#man() {
-#  env \
-#  LESS_TERMCAP_mb=$(printf "\e[1;31m") \
-#  LESS_TERMCAP_md=$(printf "\e[1;31m") \
-#  LESS_TERMCAP_me=$(printf "\e[0m") \
-#  LESS_TERMCAP_se=$(printf "\e[0m") \
-#  LESS_TERMCAP_so=$(printf "\e[1;44;33m") \
-#  LESS_TERMCAP_ue=$(printf "\e[0m") \
-#  LESS_TERMCAP_us=$(printf "\e[1;32m") \
-#  man "$@"
-#}
