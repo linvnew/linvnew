@@ -19,6 +19,6 @@
   name = linvnew
   email = linvnew@gmail.com
 [credential]
-  helper = osxkeychain
+	helper = store
 [github]
   user = linvnew
