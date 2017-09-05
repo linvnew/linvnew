@@ -6,22 +6,22 @@
 
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 # ZSH_THEME="agnoster"
-# ZSH_THEME="avit"
+  ZSH_THEME="avit"
 # ZSH_THEME="robbyrussell"
-  ZSH_THEME="linvnew"
+# ZSH_THEME="linvnew"
 # ZSH_THEME="Bureau"
  POWERLINE_HIDE_USER_NAME="true"
  POWERLINE_HIDE_HOST_NAME="true"
  POWERLINE_DETECT_SSH="true"
-#POWERLINE_GIT_CLEAN="✔"
-#POWERLINE_GIT_DIRTY="✘"
-#POWERLINE_GIT_ADDED="%F{green}✚%F{black}"
-#POWERLINE_GIT_MODIFIED="%F{blue}✹%F{black}"
-#POWERLINE_GIT_DELETED="%F{red}✖%F{black}"
-#POWERLINE_GIT_UNTRACKED="%F{yellow}✭%F{black}"
-#POWERLINE_GIT_RENAMED="➜"
+ POWERLINE_GIT_CLEAN="✔"
+ POWERLINE_GIT_DIRTY="✘"
+ POWERLINE_GIT_ADDED="%F{green}✚%F{black}"
+ POWERLINE_GIT_MODIFIED="%F{blue}✹%F{black}"
+ POWERLINE_GIT_DELETED="%F{red}✖%F{black}"
+ POWERLINE_GIT_UNTRACKED="%F{yellow}✭%F{black}"
+ POWERLINE_GIT_RENAMED="➜"
 #POWERLINE_GIT_UNMERGED="⎇"
-#POWERLINE_GIT_UNMERGED="✪"
+ POWERLINE_GIT_UNMERGED="✪"
 
 
 # Uncomment the following line to use case-sensitive completion.
